@@ -1,0 +1,130 @@
+/*Specification*/
+ul, li{
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 30px;
+}
+
+
+
+/*Header*/
+.header{
+    height: 100%;
+    background: url("img/bg_header.png"), #ededee no-repeat  bottom / cover;
+}
+
+.hamburger span{
+    background: black;
+    display: block;
+    height: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 20px;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+.nav{
+    padding-top: 54px;
+
+}
+
+.nav__menu div, ul{
+    display: inline-block;
+}
+
+.header li{
+    margin-right: 30px;
+    font-size: 16px;
+}
+.header a{
+    color: black;
+}
+.header__help button{
+    margin-top: -20px;
+    width: 130px;
+    height: 54px;
+    background: #267df4;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.header__help ul{
+    margin-bottom: 0;
+}
+
+.content-header h2{
+    margin-top: 95px;
+    font-size: 55px;
+    text-align: center;
+}
+.content-header p{
+    margin-top: 36px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bg-content{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 61px;
+    max-width: 369px;
+    max-height: 457px;
+}
+
+
+.button_watch{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #dadcdf;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*two section*/
+
+.section_two .content-future{
+    margin-left: 10px;
+    padding-top: 110px;
+}
+
+.content-future h4{
+    padding-top: 47px;
+}
+
+.content-future p{
+    padding-top: 47px;
+    padding-bottom: 113px;
+}
+
+.future:after{
+    content:'';
+
+    display: inline-block;
+    background: #f3efef;
+    width: 100%;
+    height: 2px;
+
+
+}
